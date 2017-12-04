@@ -13,6 +13,8 @@ class RailwaysRouteViewController: UIViewController {
     var presenter: RailwaysRoutePresentation!
     
     @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var labelTrainName: UILabel!
+    @IBOutlet weak var lableTrainNumber: UILabel!
     
     //Datasource
     var railwaysRoute: RailwaysRouteModel?
@@ -38,6 +40,9 @@ class RailwaysRouteViewController: UIViewController {
         tableView.estimatedRowHeight = 50
         tableView.rowHeight = UITableViewAutomaticDimension
         
+        //set table content Inset
+        tableView.contentInset = UIEdgeInsetsMake(10, 0, 10, 0)
+        
         //register Nib
         tableView.register(UINib.init(nibName: "RailwaysRouteTableViewCell", bundle: nil), forCellReuseIdentifier: "RailwaysRouteTableViewCell")
         
@@ -52,7 +57,7 @@ class RailwaysRouteViewController: UIViewController {
         //Set Large Title for Navigation Bar
         self.title = "Train Route"
         self.navigationController?.navigationBar.prefersLargeTitles = true
-        self.navigationItem.largeTitleDisplayMode = .always
+        self.navigationItem.largeTitleDisplayMode = .never
         
         //Change Fontcolor for Large navigation Title
         let attributes = [NSAttributedStringKey.foregroundColor : UIColor.darkGray]
@@ -77,6 +82,10 @@ extension RailwaysRouteViewController: RailwaysRouteView {
         
         self.railwaysRoute = railwaysRoute
         
+        //set Train Data
+        self.labelTrainName.text = self.railwaysRoute?.train?.name
+        self.lableTrainNumber.text = self.railwaysRoute?.train?.number
+        
         //get list of routes
         if let routeList = self.railwaysRoute?.route {
             self.railwaysRouteList = routeList
@@ -91,6 +100,9 @@ extension RailwaysRouteViewController: RailwaysRouteView {
         //remove existing Data
         self.railwaysRoute = nil
         self.railwaysRouteList.removeAll()
+        
+        self.labelTrainName.text = ""
+        self.lableTrainNumber.text = ""
         
         //Reload Table
         tableView.reloadData()

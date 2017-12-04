@@ -25,4 +25,8 @@ var iTunesMusicStoryBoard: UIStoryboard {
     return UIStoryboard.init(name: "ITunesMusicStoryboard", bundle: nil)
 }
 
+var railwaysRunningStatusStoryBoard: UIStoryboard {
+    return UIStoryboard.init(name: "RailwaysRunningStatusStoryboard", bundle: nil)
+}
+
 

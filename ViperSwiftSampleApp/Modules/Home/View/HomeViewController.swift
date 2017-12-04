@@ -55,7 +55,7 @@ class HomeViewController: UIViewController {
         //Set Large Title for Navigation Bar
         self.title = "Home"
         self.navigationController?.navigationBar.prefersLargeTitles = true
-        self.navigationItem.largeTitleDisplayMode = .always
+        self.navigationItem.largeTitleDisplayMode = .never
         
         //Change Fontcolor for Large navigation Title
         let attributes = [NSAttributedStringKey.foregroundColor : UIColor.darkGray]

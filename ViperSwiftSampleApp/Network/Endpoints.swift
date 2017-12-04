@@ -40,6 +40,24 @@ enum Endpoints {
         }
     }
     
+    enum RailwaysRunningStatus: Endpoint {
+        case fetch
+        
+        public var path: String {
+            switch self {
+            case .fetch: return "/liv/train/"
+            }
+        }
+        
+        public var url: String {
+            
+            switch self {
+            case .fetch:
+                return "\(API.railwaysBaseUrl)\(path)"
+            }
+        }
+    }
+    
     enum RailwaysRoute: Endpoint {
         case fetch
         

@@ -45,6 +45,9 @@ class ITunesMusicViewController: UIViewController {
         tableView.estimatedRowHeight = 50
         tableView.rowHeight = UITableViewAutomaticDimension
         
+        //set table content Inset
+        tableView.contentInset = UIEdgeInsetsMake(10, 0, 10, 0)
+        
         //register Nib
         tableView.register(UINib.init(nibName: "ITunesMusicTableViewCell", bundle: nil), forCellReuseIdentifier: "ITunesMusicTableViewCell")
         
@@ -59,7 +62,7 @@ class ITunesMusicViewController: UIViewController {
         //Set Large Title for Navigation Bar
         self.title = "ITunes Search"
         self.navigationController?.navigationBar.prefersLargeTitles = true
-        self.navigationItem.largeTitleDisplayMode = .always
+        self.navigationItem.largeTitleDisplayMode = .never
         
         //Change Fontcolor for Large navigation Title
         let attributes = [NSAttributedStringKey.foregroundColor : UIColor.darkGray]
