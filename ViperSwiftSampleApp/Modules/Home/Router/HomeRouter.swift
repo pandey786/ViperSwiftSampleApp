@@ -47,6 +47,12 @@ class HomeRouter: HomeWireframe {
         case "2":
             let itunesMusicCtrl = ItunesMusicRouter.assembleModule()
             viewController?.navigationController?.pushViewController(itunesMusicCtrl, animated: true)
+        case "3":
+            let runningStatusCtrl = RailwaysRunningStatusRouter.assembleModule()
+            viewController?.navigationController?.pushViewController(runningStatusCtrl, animated: true)
+        case "5":
+            let unitTestingCtrl = UnitTestingRouter.assembleModule()
+            viewController?.navigationController?.pushViewController(unitTestingCtrl, animated: true)
         default:
             break
         }

@@ -21,6 +21,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Travel" translatesAutoresizingMaskIntoConstraints="NO" id="iwp-f6-qLg">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="© Durgesh Pandey®" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uaq-Rz-QnZ">
                                 <rect key="frame" x="74" y="617" width="227.5" height="30"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
@@ -28,9 +31,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.00077978248840000004" green="0.63903753990000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="iwp-f6-qLg" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="0zg-Pc-9pg"/>
+                            <constraint firstAttribute="trailing" secondItem="iwp-f6-qLg" secondAttribute="trailing" id="35A-2x-1Cq"/>
                             <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="uaq-Rz-QnZ" secondAttribute="bottom" constant="20" id="C9V-5M-UUb"/>
+                            <constraint firstItem="iwp-f6-qLg" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="KBU-db-G2G"/>
+                            <constraint firstAttribute="bottom" secondItem="iwp-f6-qLg" secondAttribute="bottom" id="SG5-Rx-ge8"/>
                             <constraint firstItem="uaq-Rz-QnZ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="nMS-yR-MMl"/>
                         </constraints>
                     </view>
@@ -40,4 +47,7 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Travel" width="3104" height="3648"/>
+    </resources>
 </document>

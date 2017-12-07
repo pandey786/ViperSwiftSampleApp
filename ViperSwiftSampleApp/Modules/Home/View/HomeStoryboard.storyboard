@@ -18,9 +18,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Travel" translatesAutoresizingMaskIntoConstraints="NO" id="e7g-CO-uVt">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" delaysContentTouches="NO" canCancelContentTouches="NO" keyboardDismissMode="interactive" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="I6A-n8-M5M">
                                 <rect key="frame" x="0.0" y="20" width="375" height="647"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <connections>
                                     <outlet property="dataSource" destination="0BI-tp-ZLi" id="3Lk-Az-fbF"/>
                                     <outlet property="delegate" destination="0BI-tp-ZLi" id="aEG-0c-6vK"/>
@@ -29,9 +34,13 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="HhK-0X-hDP" firstAttribute="trailing" secondItem="e7g-CO-uVt" secondAttribute="trailing" id="Ptx-Od-Cv6"/>
                             <constraint firstItem="HhK-0X-hDP" firstAttribute="bottom" secondItem="I6A-n8-M5M" secondAttribute="bottom" id="Z11-kr-pcx"/>
                             <constraint firstItem="I6A-n8-M5M" firstAttribute="top" secondItem="HhK-0X-hDP" secondAttribute="top" id="eXh-Pg-odq"/>
+                            <constraint firstItem="e7g-CO-uVt" firstAttribute="leading" secondItem="HhK-0X-hDP" secondAttribute="leading" id="fQ3-cr-iym"/>
                             <constraint firstItem="HhK-0X-hDP" firstAttribute="trailing" secondItem="I6A-n8-M5M" secondAttribute="trailing" id="i5G-w0-ne4"/>
+                            <constraint firstItem="HhK-0X-hDP" firstAttribute="bottom" secondItem="e7g-CO-uVt" secondAttribute="bottom" id="igW-g8-a2n"/>
+                            <constraint firstItem="e7g-CO-uVt" firstAttribute="top" secondItem="HhK-0X-hDP" secondAttribute="top" id="qy9-lq-7GD"/>
                             <constraint firstItem="I6A-n8-M5M" firstAttribute="leading" secondItem="HhK-0X-hDP" secondAttribute="leading" id="vnD-CW-HMN"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="HhK-0X-hDP"/>
@@ -45,4 +54,7 @@
             <point key="canvasLocation" x="38" y="137"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Travel" width="3104" height="3648"/>
+    </resources>
 </document>

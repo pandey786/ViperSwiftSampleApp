@@ -18,9 +18,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="W9k-jR-5lA">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Travel" translatesAutoresizingMaskIntoConstraints="NO" id="WPY-2l-5zO">
                                 <rect key="frame" x="0.0" y="20" width="375" height="647"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="W9k-jR-5lA">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <connections>
                                     <outlet property="dataSource" destination="U2M-0T-iQ0" id="SZI-j9-Hns"/>
                                     <outlet property="delegate" destination="U2M-0T-iQ0" id="3mD-Ju-ZGG"/>
@@ -29,7 +33,11 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="WPY-2l-5zO" firstAttribute="leading" secondItem="4Ud-XU-NQA" secondAttribute="leading" id="2ry-f8-uXa"/>
+                            <constraint firstItem="4Ud-XU-NQA" firstAttribute="bottom" secondItem="WPY-2l-5zO" secondAttribute="bottom" id="LC6-ta-CzD"/>
+                            <constraint firstItem="WPY-2l-5zO" firstAttribute="top" secondItem="4Ud-XU-NQA" secondAttribute="top" id="Ttp-bo-Ji7"/>
                             <constraint firstItem="W9k-jR-5lA" firstAttribute="leading" secondItem="4Ud-XU-NQA" secondAttribute="leading" id="XNf-in-fQb"/>
+                            <constraint firstItem="4Ud-XU-NQA" firstAttribute="trailing" secondItem="WPY-2l-5zO" secondAttribute="trailing" id="iPf-6g-Cyp"/>
                             <constraint firstItem="W9k-jR-5lA" firstAttribute="top" secondItem="4Ud-XU-NQA" secondAttribute="top" id="n5d-2o-xRd"/>
                             <constraint firstItem="4Ud-XU-NQA" firstAttribute="trailing" secondItem="W9k-jR-5lA" secondAttribute="trailing" id="vK1-kh-bAX"/>
                             <constraint firstItem="4Ud-XU-NQA" firstAttribute="bottom" secondItem="W9k-jR-5lA" secondAttribute="bottom" id="yFh-G4-mtX"/>
@@ -45,4 +53,7 @@
             <point key="canvasLocation" x="150" y="160"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Travel" width="3104" height="3648"/>
+    </resources>
 </document>
