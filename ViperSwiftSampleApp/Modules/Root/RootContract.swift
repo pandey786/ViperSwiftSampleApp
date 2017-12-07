@@ -1,9 +1,9 @@
 //
 //  RootContract.swift
-//  Articles
+//  ViperSwiftSampleApp
 //
-//  Created by Pedro Henrique Prates Peralta on 21/01/17.
-//  Copyright © 2017 Pedro Peralta. All rights reserved.
+//  Created by Durgesh Pandey on 29/11/17.
+//  Copyright © 2017 Durgesh Pandey. All rights reserved.
 //
 
 import UIKit
