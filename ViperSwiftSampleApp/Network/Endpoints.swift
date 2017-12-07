@@ -45,7 +45,7 @@ enum Endpoints {
         
         public var path: String {
             switch self {
-            case .fetch: return "/liv/train/"
+            case .fetch: return "/live/train/"
             }
         }
         

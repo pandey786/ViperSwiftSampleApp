@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3517F0511FD90AEB0097BE8E /* UnitTestingContractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3517F0501FD90AEB0097BE8E /* UnitTestingContractor.swift */; };
+		3517F0531FD90B7A0097BE8E /* UnitTestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3517F0521FD90B7A0097BE8E /* UnitTestModel.swift */; };
+		3517F0551FD90CB20097BE8E /* UnitTestingInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3517F0541FD90CB20097BE8E /* UnitTestingInteractor.swift */; };
+		3517F0571FD90CE20097BE8E /* UnitTestingPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3517F0561FD90CE20097BE8E /* UnitTestingPresenter.swift */; };
+		3517F0591FD919940097BE8E /* UnitTestingRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3517F0581FD919940097BE8E /* UnitTestingRouter.swift */; };
+		3517F05B1FD919D70097BE8E /* UnitTestingStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3517F05A1FD919D70097BE8E /* UnitTestingStoryboard.storyboard */; };
+		3517F05D1FD919E30097BE8E /* UnitTestingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3517F05C1FD919E30097BE8E /* UnitTestingViewController.swift */; };
 		351CFD631FCEB5340029C3E7 /* ViperSwiftSampleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351CFD621FCEB5340029C3E7 /* ViperSwiftSampleAppTests.swift */; };
 		351CFD6E1FCEB5340029C3E7 /* ViperSwiftSampleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351CFD6D1FCEB5340029C3E7 /* ViperSwiftSampleAppUITests.swift */; };
 		351CFDB31FCEB5AA0029C3E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351CFD7C1FCEB5AA0029C3E7 /* AppDelegate.swift */; };
@@ -52,6 +59,16 @@
 		351CFE211FD10CAF0029C3E7 /* ITunesMusicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351CFE1F1FD10CAF0029C3E7 /* ITunesMusicTableViewCell.swift */; };
 		351CFE221FD10CAF0029C3E7 /* ITunesMusicTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 351CFE201FD10CAF0029C3E7 /* ITunesMusicTableViewCell.xib */; };
 		351CFE241FD10FBE0029C3E7 /* ITunesMusicAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351CFE231FD10FBD0029C3E7 /* ITunesMusicAPIService.swift */; };
+		35FA47781FD6622D0066B59C /* RailwaysRunningStatusContractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FA476C1FD6622C0066B59C /* RailwaysRunningStatusContractor.swift */; };
+		35FA47791FD6622D0066B59C /* RailwaysRunningStatusInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FA476E1FD6622C0066B59C /* RailwaysRunningStatusInteractor.swift */; };
+		35FA477A1FD6622D0066B59C /* RailwaysRunningStatusPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FA47701FD6622C0066B59C /* RailwaysRunningStatusPresenter.swift */; };
+		35FA477B1FD6622D0066B59C /* RailwaysRunningStatusRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FA47721FD6622C0066B59C /* RailwaysRunningStatusRouter.swift */; };
+		35FA477C1FD6622D0066B59C /* RailwaysRunningStatusStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35FA47741FD6622C0066B59C /* RailwaysRunningStatusStoryboard.storyboard */; };
+		35FA477D1FD6622D0066B59C /* RailwaysRunningStatusTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FA47751FD6622C0066B59C /* RailwaysRunningStatusTableViewCell.swift */; };
+		35FA477E1FD6622D0066B59C /* RailwaysRunningStatusTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35FA47761FD6622C0066B59C /* RailwaysRunningStatusTableViewCell.xib */; };
+		35FA477F1FD6622D0066B59C /* RailwaysRunningStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FA47771FD6622C0066B59C /* RailwaysRunningStatusViewController.swift */; };
+		35FA47811FD662660066B59C /* RailwaysRunningStatusModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FA47801FD662660066B59C /* RailwaysRunningStatusModel.swift */; };
+		35FA47831FD6627E0066B59C /* RailwaysRunningStatusApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FA47821FD6627E0066B59C /* RailwaysRunningStatusApiService.swift */; };
 		4F14577F0E6DAC078F98D5F9 /* Pods_ViperSwiftSampleAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC81C114739149082F2348FD /* Pods_ViperSwiftSampleAppTests.framework */; };
 		C1976B3344C18D514F84FB8E /* Pods_ViperSwiftSampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4157D9BC5ED83C4FA8B6BE4E /* Pods_ViperSwiftSampleApp.framework */; };
 		ED9B475E95C8D8C2D45807C0 /* Pods_ViperSwiftSampleAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6BFE1F46DF2572D666846A9 /* Pods_ViperSwiftSampleAppUITests.framework */; };
@@ -76,6 +93,13 @@
 
 /* Begin PBXFileReference section */
 		08D41D111A0C859C3F49C970 /* Pods-ViperSwiftSampleAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViperSwiftSampleAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ViperSwiftSampleAppUITests/Pods-ViperSwiftSampleAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3517F0501FD90AEB0097BE8E /* UnitTestingContractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingContractor.swift; sourceTree = "<group>"; };
+		3517F0521FD90B7A0097BE8E /* UnitTestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestModel.swift; sourceTree = "<group>"; };
+		3517F0541FD90CB20097BE8E /* UnitTestingInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingInteractor.swift; sourceTree = "<group>"; };
+		3517F0561FD90CE20097BE8E /* UnitTestingPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingPresenter.swift; sourceTree = "<group>"; };
+		3517F0581FD919940097BE8E /* UnitTestingRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingRouter.swift; sourceTree = "<group>"; };
+		3517F05A1FD919D70097BE8E /* UnitTestingStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UnitTestingStoryboard.storyboard; sourceTree = "<group>"; };
+		3517F05C1FD919E30097BE8E /* UnitTestingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingViewController.swift; sourceTree = "<group>"; };
 		351CFD471FCEB5340029C3E7 /* ViperSwiftSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViperSwiftSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		351CFD591FCEB5340029C3E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		351CFD5E1FCEB5340029C3E7 /* ViperSwiftSampleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViperSwiftSampleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -127,6 +151,16 @@
 		351CFE1F1FD10CAF0029C3E7 /* ITunesMusicTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITunesMusicTableViewCell.swift; sourceTree = "<group>"; };
 		351CFE201FD10CAF0029C3E7 /* ITunesMusicTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ITunesMusicTableViewCell.xib; sourceTree = "<group>"; };
 		351CFE231FD10FBD0029C3E7 /* ITunesMusicAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITunesMusicAPIService.swift; sourceTree = "<group>"; };
+		35FA476C1FD6622C0066B59C /* RailwaysRunningStatusContractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RailwaysRunningStatusContractor.swift; sourceTree = "<group>"; };
+		35FA476E1FD6622C0066B59C /* RailwaysRunningStatusInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RailwaysRunningStatusInteractor.swift; sourceTree = "<group>"; };
+		35FA47701FD6622C0066B59C /* RailwaysRunningStatusPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RailwaysRunningStatusPresenter.swift; sourceTree = "<group>"; };
+		35FA47721FD6622C0066B59C /* RailwaysRunningStatusRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RailwaysRunningStatusRouter.swift; sourceTree = "<group>"; };
+		35FA47741FD6622C0066B59C /* RailwaysRunningStatusStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RailwaysRunningStatusStoryboard.storyboard; sourceTree = "<group>"; };
+		35FA47751FD6622C0066B59C /* RailwaysRunningStatusTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RailwaysRunningStatusTableViewCell.swift; sourceTree = "<group>"; };
+		35FA47761FD6622C0066B59C /* RailwaysRunningStatusTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RailwaysRunningStatusTableViewCell.xib; sourceTree = "<group>"; };
+		35FA47771FD6622C0066B59C /* RailwaysRunningStatusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RailwaysRunningStatusViewController.swift; sourceTree = "<group>"; };
+		35FA47801FD662660066B59C /* RailwaysRunningStatusModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RailwaysRunningStatusModel.swift; sourceTree = "<group>"; };
+		35FA47821FD6627E0066B59C /* RailwaysRunningStatusApiService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RailwaysRunningStatusApiService.swift; sourceTree = "<group>"; };
 		4157D9BC5ED83C4FA8B6BE4E /* Pods_ViperSwiftSampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViperSwiftSampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57952AAE4670DD742C1F319D /* Pods-ViperSwiftSampleAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViperSwiftSampleAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ViperSwiftSampleAppTests/Pods-ViperSwiftSampleAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		64E8A3F475AB3F6E27ADB92A /* Pods-ViperSwiftSampleAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViperSwiftSampleAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ViperSwiftSampleAppUITests/Pods-ViperSwiftSampleAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -165,6 +199,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3517F04A1FD90ADC0097BE8E /* Unit Testing */ = {
+			isa = PBXGroup;
+			children = (
+				3517F04B1FD90ADC0097BE8E /* Contractor */,
+				3517F04C1FD90ADC0097BE8E /* Interactor */,
+				3517F04D1FD90ADC0097BE8E /* Presenter */,
+				3517F04E1FD90ADC0097BE8E /* Router */,
+				3517F04F1FD90ADC0097BE8E /* View */,
+			);
+			path = "Unit Testing";
+			sourceTree = "<group>";
+		};
+		3517F04B1FD90ADC0097BE8E /* Contractor */ = {
+			isa = PBXGroup;
+			children = (
+				3517F0501FD90AEB0097BE8E /* UnitTestingContractor.swift */,
+			);
+			path = Contractor;
+			sourceTree = "<group>";
+		};
+		3517F04C1FD90ADC0097BE8E /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				3517F0541FD90CB20097BE8E /* UnitTestingInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		3517F04D1FD90ADC0097BE8E /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				3517F0561FD90CE20097BE8E /* UnitTestingPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		3517F04E1FD90ADC0097BE8E /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				3517F0581FD919940097BE8E /* UnitTestingRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		3517F04F1FD90ADC0097BE8E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3517F05A1FD919D70097BE8E /* UnitTestingStoryboard.storyboard */,
+				3517F05C1FD919E30097BE8E /* UnitTestingViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		351CFD3E1FCEB5340029C3E7 = {
 			isa = PBXGroup;
 			children = (
@@ -264,6 +351,7 @@
 				351CFD8E1FCEB5AA0029C3E7 /* Endpoints.swift */,
 				351CFE051FCFF24F0029C3E7 /* RailwaysRouteAPIService.swift */,
 				351CFE231FD10FBD0029C3E7 /* ITunesMusicAPIService.swift */,
+				35FA47821FD6627E0066B59C /* RailwaysRunningStatusApiService.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -288,6 +376,8 @@
 		351CFD951FCEB5AA0029C3E7 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				3517F04A1FD90ADC0097BE8E /* Unit Testing */,
+				35FA476A1FD6622C0066B59C /* Railways Running Status */,
 				351CFE0B1FD105F40029C3E7 /* Itunes Music */,
 				351CFDF11FCFE6040029C3E7 /* Railways Route */,
 				351CFDD71FCFD59C0029C3E7 /* Home */,
@@ -311,6 +401,8 @@
 				351CFDE91FCFD7220029C3E7 /* HomeModel.swift */,
 				351CFE031FCFE6F20029C3E7 /* RailwaysRouteModel.swift */,
 				351CFE1D1FD107110029C3E7 /* ItunesMusicModel.swift */,
+				35FA47801FD662660066B59C /* RailwaysRunningStatusModel.swift */,
+				3517F0521FD90B7A0097BE8E /* UnitTestModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -480,6 +572,61 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		35FA476A1FD6622C0066B59C /* Railways Running Status */ = {
+			isa = PBXGroup;
+			children = (
+				35FA476B1FD6622C0066B59C /* Contractor */,
+				35FA476D1FD6622C0066B59C /* Interactor */,
+				35FA476F1FD6622C0066B59C /* Presenter */,
+				35FA47711FD6622C0066B59C /* Router */,
+				35FA47731FD6622C0066B59C /* View */,
+			);
+			path = "Railways Running Status";
+			sourceTree = "<group>";
+		};
+		35FA476B1FD6622C0066B59C /* Contractor */ = {
+			isa = PBXGroup;
+			children = (
+				35FA476C1FD6622C0066B59C /* RailwaysRunningStatusContractor.swift */,
+			);
+			path = Contractor;
+			sourceTree = "<group>";
+		};
+		35FA476D1FD6622C0066B59C /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				35FA476E1FD6622C0066B59C /* RailwaysRunningStatusInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		35FA476F1FD6622C0066B59C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				35FA47701FD6622C0066B59C /* RailwaysRunningStatusPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		35FA47711FD6622C0066B59C /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				35FA47721FD6622C0066B59C /* RailwaysRunningStatusRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		35FA47731FD6622C0066B59C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				35FA47741FD6622C0066B59C /* RailwaysRunningStatusStoryboard.storyboard */,
+				35FA47751FD6622C0066B59C /* RailwaysRunningStatusTableViewCell.swift */,
+				35FA47761FD6622C0066B59C /* RailwaysRunningStatusTableViewCell.xib */,
+				35FA47771FD6622C0066B59C /* RailwaysRunningStatusViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		3F79ED83AB6CC305F13D1AA5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -621,15 +768,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				351CFDE61FCFD5EE0029C3E7 /* HomeStoryboard.storyboard in Resources */,
+				35FA477C1FD6622D0066B59C /* RailwaysRunningStatusStoryboard.storyboard in Resources */,
 				351CFDF01FCFDEF00029C3E7 /* HomeTableViewCell.xib in Resources */,
 				351CFE1A1FD106280029C3E7 /* ITunesMusicStoryboard.storyboard in Resources */,
 				351CFDD61FCEBB960029C3E7 /* Localizable.strings in Resources */,
 				351CFE0A1FCFFB520029C3E7 /* RailwaysRouteTableViewCell.xib in Resources */,
 				351CFE221FD10CAF0029C3E7 /* ITunesMusicTableViewCell.xib in Resources */,
+				35FA477E1FD6622D0066B59C /* RailwaysRunningStatusTableViewCell.xib in Resources */,
 				351CFDC31FCEB5AA0029C3E7 /* LaunchScreen.storyboard in Resources */,
 				351CFE001FCFE64A0029C3E7 /* RailwaysRouteStoryboard.storyboard in Resources */,
 				351CFDB41FCEB5AA0029C3E7 /* Assets.xcassets in Resources */,
 				351CFDB51FCEB5AA0029C3E7 /* LaunchScreen.storyboard in Resources */,
+				3517F05B1FD919D70097BE8E /* UnitTestingStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -689,9 +839,20 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ViperSwiftSampleAppUITests/Pods-ViperSwiftSampleAppUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/PKHUD/PKHUD.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PKHUD.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -776,9 +937,20 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ViperSwiftSampleAppTests/Pods-ViperSwiftSampleAppTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/PKHUD/PKHUD.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PKHUD.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -827,6 +999,7 @@
 			files = (
 				351CFE021FCFE6570029C3E7 /* RailwaysRouteViewController.swift in Sources */,
 				351CFDEA1FCFD7220029C3E7 /* HomeModel.swift in Sources */,
+				35FA47811FD662660066B59C /* RailwaysRunningStatusModel.swift in Sources */,
 				351CFE091FCFFB520029C3E7 /* RailwaysRouteTableViewCell.swift in Sources */,
 				351CFE241FD10FBE0029C3E7 /* ITunesMusicAPIService.swift in Sources */,
 				351CFDFC1FCFE6370029C3E7 /* RailwaysRoutePresenter.swift in Sources */,
@@ -834,30 +1007,43 @@
 				351CFDDE1FCFD5BF0029C3E7 /* HomeContractor.swift in Sources */,
 				351CFDB61FCEB5AA0029C3E7 /* ViperSwiftSampleApp.xcdatamodeld in Sources */,
 				351CFDC21FCEB5AA0029C3E7 /* Localization.swift in Sources */,
+				3517F0531FD90B7A0097BE8E /* UnitTestModel.swift in Sources */,
 				351CFDE01FCFD5CA0029C3E7 /* HomeInteractor.swift in Sources */,
 				351CFDE41FCFD5DF0029C3E7 /* HomeRouter.swift in Sources */,
+				35FA477D1FD6622D0066B59C /* RailwaysRunningStatusTableViewCell.swift in Sources */,
 				351CFE1C1FD106370029C3E7 /* ITunesMusicViewController.swift in Sources */,
+				35FA477A1FD6622D0066B59C /* RailwaysRunningStatusPresenter.swift in Sources */,
 				351CFE1E1FD107110029C3E7 /* ItunesMusicModel.swift in Sources */,
 				351CFDBA1FCEB5AA0029C3E7 /* StringExtension.swift in Sources */,
 				351CFDF81FCFE61A0029C3E7 /* RailwaysRouteContractor.swift in Sources */,
 				351CFE121FD106050029C3E7 /* ITunesMusicContractor.swift in Sources */,
 				351CFDB71FCEB5AA0029C3E7 /* IndicatableViewExtension.swift in Sources */,
+				3517F0591FD919940097BE8E /* UnitTestingRouter.swift in Sources */,
 				351CFDD11FCEB5AA0029C3E7 /* RootContract.swift in Sources */,
 				351CFE061FCFF24F0029C3E7 /* RailwaysRouteAPIService.swift in Sources */,
 				351CFDD21FCEB5AA0029C3E7 /* RootRouter.swift in Sources */,
+				3517F0511FD90AEB0097BE8E /* UnitTestingContractor.swift in Sources */,
+				35FA477F1FD6622D0066B59C /* RailwaysRunningStatusViewController.swift in Sources */,
 				351CFDC11FCEB5AA0029C3E7 /* Constants.swift in Sources */,
 				351CFE161FD106170029C3E7 /* ITunesMusicPresenter.swift in Sources */,
 				351CFE211FD10CAF0029C3E7 /* ITunesMusicTableViewCell.swift in Sources */,
+				35FA47831FD6627E0066B59C /* RailwaysRunningStatusApiService.swift in Sources */,
 				351CFDFE1FCFE6410029C3E7 /* RailwaysRouteRouter.swift in Sources */,
 				351CFDBD1FCEB5AA0029C3E7 /* ViewProtocols.swift in Sources */,
+				35FA477B1FD6622D0066B59C /* RailwaysRunningStatusRouter.swift in Sources */,
+				3517F05D1FD919E30097BE8E /* UnitTestingViewController.swift in Sources */,
 				351CFE041FCFE6F20029C3E7 /* RailwaysRouteModel.swift in Sources */,
 				351CFDE81FCFD5FB0029C3E7 /* HomeViewController.swift in Sources */,
+				35FA47791FD6622D0066B59C /* RailwaysRunningStatusInteractor.swift in Sources */,
 				351CFE141FD1060F0029C3E7 /* ITunesMusicInteractor.swift in Sources */,
 				351CFDB31FCEB5AA0029C3E7 /* AppDelegate.swift in Sources */,
 				351CFDEF1FCFDEF00029C3E7 /* HomeTableViewCell.swift in Sources */,
+				35FA47781FD6622D0066B59C /* RailwaysRunningStatusContractor.swift in Sources */,
 				351CFE181FD1061F0029C3E7 /* ITunesMusicRouter.swift in Sources */,
 				351CFDFA1FCFE62E0029C3E7 /* RailwaysRouteInteractor.swift in Sources */,
 				351CFDBF1FCEB5AA0029C3E7 /* Endpoints.swift in Sources */,
+				3517F0551FD90CB20097BE8E /* UnitTestingInteractor.swift in Sources */,
+				3517F0571FD90CE20097BE8E /* UnitTestingPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
