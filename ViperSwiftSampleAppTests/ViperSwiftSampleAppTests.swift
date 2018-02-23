@@ -11,14 +11,35 @@ import XCTest
 
 class ViperSwiftSampleAppTests: XCTestCase {
     
+    var unitTestingInteractor: UnitTestingInteractor!
+    
     override func setUp() {
         super.setUp()
+        
         // Put setup code here. This method is called before the invocation of each test method in the class.
+        unitTestingInteractor = UnitTestingInteractor()
     }
     
     override func tearDown() {
+        
         // Put teardown code here. This method is called after the invocation of each test method in the class.
+        unitTestingInteractor = nil
+        
         super.tearDown()
+    }
+    
+    func testDifferenceComputed() {
+        
+        //given
+        let firstVal = 100
+        let secondVal = 50
+        
+        //when
+        let difference = unitTestingInteractor.getDifference(firstVal, secondVal)
+        
+        //then
+        XCTAssertEqual(50, difference, "Correct difference was not calculated")
+        
     }
     
     func testExample() {

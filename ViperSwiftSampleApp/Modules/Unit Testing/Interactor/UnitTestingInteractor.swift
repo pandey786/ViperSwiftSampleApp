@@ -33,4 +33,13 @@ class UnitTestingInteractor: UnitTestingUsecase {
         }
         
     }
+    
+    func getDifference(_ firstValue: Int, _ secondValue: Int) -> Int {
+        
+        //First test Case this should fail
+        return (firstValue - secondValue)
+        
+        //This should pass
+        //return abs((firstValue - secondValue))
+    }
 }

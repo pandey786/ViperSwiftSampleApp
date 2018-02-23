@@ -1,0 +1,6 @@
+framework module Pods_ViperSwiftSampleAppUITests {
+  umbrella header "Pods-ViperSwiftSampleAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
